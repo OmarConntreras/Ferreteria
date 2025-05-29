@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulario</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+	<header>
+		<h1>Formulario</h1>
+	</header>
+
+	<nav>
+		<a href="index.html">Inicio</a><br>
+		<a href="productos.html">Productos</a><br>	
+	<a href="quienessomos.html">Quienes Somos</a><br>
+</nav>
+<main>
+	<section class="fondo">
+		<style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #gray; 
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 60%;
+            margin: 20px auto;
+            background color: skyblue;  
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba  ;
+        }
+        h2 {
+            text-align: center;
+            color: black ;
+        }
+        label {
+            font-weight: 700;
+            display: block;
+            margin-top: 7px;
+        }
+        input[type="text"], input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .btn {
+            display: block;
+            width: 50%;
+            padding: 10px;
+            background-color: #a9cce3 ;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+        .btn:hover {
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div align="center" class="container">
+        <h2>Formulario</h2>
+        <form>
+            <label>Tipo de producto:</label>
+            <select>
+            <option value="herramienta">Herramienta</option>
+            <option value="fontaneria">Fontaneria</option>
+            <option value="electrico">Electricidad</option>
+             <option value="carpinteria">Carpinteria</option>
+             <option value="jardineria">Jardineria</option>
+                 <option value="albañileria">Albañileria</option>
+            </select>
+            <label>Nombre producto:</label>
+            <input type="text" name="Nombre" required>
+            
+            <label>Stock</label>
+            <input type="text" name="Stock" required>
+
+            <label>Categoria</label>
+            <input type="text" name="Categoria" required>
+
+            <label>Descripcion</label>
+            <input type="text" name="Descripcion" required>
+            
+ 
+            
+            <label>Cantidad:</label>
+            <input type="number" name="cantidad" min="1" required>
+            
+            <button type="submit" class="btn"> Enviar</button>
+        </form>
+    </div>
+		
+	</section>
+</main>
+<footer>
+	<p>&copy;2025 Ferreteria  - todos los derechos reservados.</p>
+	<p>Maestra Alondra Zavala - 2025</p>
+	<p>4A Programacion - Contreras Moreno - Catalan Duarte </p>
+</footer>
+
+</body>
+</html>
